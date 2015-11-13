@@ -11,8 +11,10 @@ ClientContext - The client context of the target Web
 Target web must be a publishing web
 
 ## How to use?
+```
 PS> Import-Module SPO.EnableRatings.dll
 PS> Set-SPORating -ListName "Pages" -RatingType Ratings -Context $context
+```
 
 ## Other info
 
